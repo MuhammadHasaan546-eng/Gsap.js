@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+body {
+  font-size: 30px;
+  /* color: white; */
+}
+
+#page1 {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page2 {
+  height: 100%;
+  width: 100%;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#page3 {
+  height: 100%;
+  width: 100%;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#box {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+}
